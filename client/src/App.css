@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Baloo+Tammudu');
+
+.App {
+  top: 30%;
+}
+#innerApp {
+  position: absolute;
+  top: 37%;
+  left: 15%;
+  width: 70%;
+  height: 45%;
+  border: 2px solid blue;
+  border-radius: 15px;
+  background-color: white;
+}
+#tweedList {
+  overflow-y: auto;
+  border-bottom: 2px solid lime;
+  box-shadow: 0 30px 30px -30px #7AC71C;
+  height: 200px;
+}
+body {
+  background-color: black;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  background-color: #222;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: linear-gradient(to bottom right, blue, black);
+  height: 180px;
+  padding: 20px;
+  color: yellow;
+  font-size: 26px;
+  font-family: 'Baloo Tammudu';
+  letter-spacing: 3px;
+  border-bottom: 5px solid yellow;
+}
+.App-intro {
+  font-size: large;
+}
+#footer {
+  background-image: url("./images/lsdev_bg.jpg");
+  color: white;
+  position: fixed;
+  top: 85%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  animation: colors 20s ease-in-out 0s infinite;
+}
+
+#footerMessage {
+  background-color: black;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: 'Baloo Tammudu';
+}
+
+span#devName {
+  animation: colorsAndTremble 1s ease-in-out .3s infinite;
+}
+@keyframes colors {
+  0% {color: white;}
+  5% { color: #AC1D1C; }
+  10% { color: #F0E71D; }
+  15% { color: #0FF5E7; }
+  20% { color: #1B15E5; }
+  25% { color: #50FF17; }
+  30% { color: #0AF; }
+  35% { color: #7007ED; }
+  40% { color: #F0E; }
+  45% { color: #0B0157; }
+  50% { color: #ABA5ED; }
+  60% { color: #B1071C; }
+  65% { color: #75E75E; }
+  70% { color: #D05; }
+  75% { color: #F0E71D; }
+  80% { color: #1F5; }
+  85% { color: #B0D1CE; }
+  90% { color: #1CE; }
+  95% { color: #BEEFED; }
+  100% { color: white; }
+}
+@keyframes colorsAndTremble {
+  0% {color: white;
+      transform: rotate(0deg);}
+  5% { color: #AC1D1C;
+      transform: rotate(1deg);}
+  10% { color: #F0E71D;
+      transform: rotate(0deg);}
+  15% { color: #0FF5E7;
+      transform: rotate(1deg);}
+  20% { color: #1B15E5;
+      transform: rotate(0deg);}
+  25% { color: #50FF17;
+      transform: rotate(1deg);}
+  30% { color: #0AF;
+      transform: rotate(0deg);}
+  35% { color: #7007ED;
+      transform: rotate(1deg);}
+  40% { color: #F0E;
+      transform: rotate(0deg);}
+  45% { color: #0B0157;
+      transform: rotate(1deg);}
+  50% { color: #ABA5ED;
+      transform: rotate(0deg);}
+  60% { color: #B1071C;
+      transform: rotate(1deg);}
+  65% { color: #75E75E;
+      transform: rotate(0deg);}
+  70% { color: #D05;
+      transform: rotate(1deg);}
+  75% { color: #F0E71D;
+      transform: rotate(0deg);}
+  80% { color: #1F5;
+      transform: rotate(1deg);}
+  85% { color: #B0D1CE;
+      transform: rotate(0deg);}
+  90% { color: #1CE;
+      transform: rotate(1deg);}
+  95% { color: #BEEFED;
+      transform: rotate(0deg);}
+  100% { color: white;
+      transform: rotate(1deg);}
+}
+
+
+.add-tweed-form{
+  padding: 15px;
+  display: inline-flex;
+  margin-top: 20px;
+
+}
+
+input {
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  background-color: white;
+  margin-right: 15px;
+  margin-left: 250px;
+}
+
+#tweedContent {
+  font-family: Acme;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 90px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.viewTweed {
+  font-family: Acme;
+  font-size: 14px;
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+#solo {
+  color: yellow;
+  font-family: 'Baloo Tammudu';
+  font-size: 40px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 50px;
+}
